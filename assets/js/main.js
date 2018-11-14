@@ -46,8 +46,11 @@ function createRepoItemElement(repo) {
     <div class="repo-item">
       <a href="${repo.html_url}"><strong>${repo.name}</strong></a>
       <p class="repo-item-description">${
-        repo.description == null ? "" : repo.description
-      }</p>
+    repo.description == null ? "" : repo.description
+    }</p>
+      <a href="${repo.homepage == null ? "#" : repo.homepage}" class="repo-item-homepage">
+        ${repo.homepage == null ? "" : "homepage"}
+      </a>
       <p class="repo-item-language">${repo.language}</p>
     </div>
   `;
