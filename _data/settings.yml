@@ -1,0 +1,4 @@
+# General configuration
+menu:
+- { name: 'Home', path: '.', url: 'index.html' }
+- { name: 'About', path: 'menu', url: 'about.html' }

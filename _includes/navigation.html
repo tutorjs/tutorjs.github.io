@@ -1,0 +1,9 @@
+<ul>
+    {% for item in site.data.settings.menu %}
+      <li>
+        <a href="{{ site.github_url }}/{{ item.path }}/{{ item.url }}">
+          {{ item.name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
