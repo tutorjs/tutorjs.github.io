@@ -2,11 +2,18 @@
 layout: default
 title: Home
 ---
+<div>
+  
+  <h4>Update Repos</h4>
+  <div id="repos"></div>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+  <h4>Latest Posts</h4>
+  <div class="clearfix">
+    {% for post in site.posts %}
+      <div class="post-item">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </div>
+    {% endfor %}
+  </div>
+
+</div>

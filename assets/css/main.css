@@ -1,0 +1,78 @@
+html, body {
+  padding: 0;
+  margin: 0
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 4rem;
+}
+
+.header-title {
+  font-size: 2rem;
+}
+
+.navigation {
+  padding-top: 0.5rem;
+  display: block;
+}
+
+.navigation-item {
+  float: left;
+}
+
+.navigation-item a {
+  color: #999;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.repo-item {
+  float: left;
+  padding: 0.2rem;
+  width: 32.33%;
+  height: 150px;
+}
+
+.repo-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.repo-item a:hover {
+  color: #999;
+}
+
+.post-item {
+  float: left;
+  padding: 0.2rem;
+  width: 32.33%;
+  height: 150px;
+}
+
+.post-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.post-item a:hover {
+  color: #999;
+}
