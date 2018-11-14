@@ -1,9 +1,7 @@
-<ul>
-    {% for item in site.data.settings.menu %}
-      <li>
-        <a href="{{ site.github_url }}/{{ item.path }}/{{ item.url }}">
-          {{ item.name }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="navigation-item">
+  {% for item in site.data.settings.menu %}
+  <a href="{{ site.github_url }}/{{ item.path }}/{{ item.url }}">
+    {{ item.name }}
+  </a>
+  {% endfor %}
+</div>
